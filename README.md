@@ -19,10 +19,9 @@ The main goals of this work are:
 ## Repository Structure
 
 TFM/
-├── 1_train_export/ # Training of neural news recommenders
-├── 2_metrics_RADio/ # Diversity metrics
-├── 3_3Cat/ # Regional news analysis using LLMs
-
+├── 1_train_export/        # Training of neural news recommenders
+├── 2_metrics_RADio/       # Diversity metrics
+├── 3_3Cat/                # Regional news analysis using LLMs
 
 ---
 
@@ -74,7 +73,7 @@ Required external files:
 
 This module implements diversity metrics inspired by the RADio framework.
 
-## Dependencies
+### Dependencies
 ```bash
 pip install bs4 community elasticsearch gensim lxml nano \
 python-louvain stop_words textblob textstat minimock textblob_nl pathlib
@@ -83,11 +82,11 @@ pip install https://github.com/explosion/spacy-models/releases/download/\
 en_core_web_sm-3.0.0/en_core_web_sm-3.0.0.tar.gz#egg=en_core_web_sm
 ```
 
-3️⃣ Regional Analysis (3_3Cat)
+## 3️⃣ Regional Analysis (3_3Cat)
 
 Analysis of a regional Catalan news dataset using local large language models via Ollama and LangChain to process the data and subsequently compute entropy and activation metrics in order to obtain average sentiment and polarization, with the goal of calculating a diversity metric for the analyzed dataset.
 
-## Requirements
+### Requirements
 pip install langchain langchain_community sparqlwrapper
 
 
