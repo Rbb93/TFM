@@ -1,6 +1,6 @@
 # TFM – Analysis of Content Diversity in News Recommendation Systems
 
-This repository contains the code and experiments developed for my **Master’s Thesis (TFM)**, focused on the **analysis of ideological diversity, sentiment, and polarization in news recommendation systems**.
+This repository contains the code and experiments developed for my **Master’s Thesis (TFM)**, focused on the **analysis of diversity metrics in news recommendation systems**.
 
 The project studies how modern recommender models distribute political content and how this affects **diversity of exposure** and **user influence**, combining entropy-based measures with sentiment-aware metrics.
 
@@ -9,19 +9,20 @@ The project studies how modern recommender models distribute political content a
 ## Project Scope
 
 The main goals of this work are:
-- To analyze ideological diversity in recommended news.
-- To measure diversity using entropy-based indicators.
-- To incorporate sentiment and polarization into diversity metrics.
-- To evaluate recommendation models on both international and regional news datasets.
+- To analyze diversity in recommended news.
+- To evaluate the diversity over a range of time in regional news datasets.
 
 ---
 
 ## Repository Structure
 
-TFM/
-├── 1_train_export/        # Training of neural news recommenders
-├── 2_metrics_RADio/       # Diversity metrics
-├── 3_3Cat/                # Regional news analysis using LLMs
+TFM
+
+├── 1_train_export  # Training of neural news recommenders
+
+├── 2_metrics_RADio # Diversity metrics
+
+├── 3_3Cat          # Regional news analysis using LLMs
 
 ---
 
