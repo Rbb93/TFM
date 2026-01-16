@@ -1,0 +1,22 @@
+{
+  "distance": ["kl", "jsd"],
+  "metrics": [
+    "calibration",
+    "fragmentation",
+    "activation",
+    "representation",
+    "alternative_voices"
+    ],
+  "cutoff": [1, 2, 5, 10, 20, 0],
+  "append": "N",
+  "test_size": 100,
+  "language": "english",
+  "algorithms": ["lstur", "pop", "random"],
+  "articles": "data/articles.pickle",
+  "recommendations": "data/recommendations.pickle",
+  "political_file": "data/term-116.csv",
+  "behavior_file": "data/behaviors.tsv",
+  "output_folder": "output/",
+    "metadata_folder": "metadata/",
+  "mind_type": "small"
+}
