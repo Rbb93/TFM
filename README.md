@@ -4,15 +4,11 @@ This repository contains the code and experiments developed for my **Master’s 
 
 The project studies how modern recommender models distribute political content and how this affects **diversity of exposure** and **user influence**, combining entropy-based measures with sentiment-aware metrics.
 
----
-
 ## Project Scope
 
 The main goals of this work are:
 - To analyze diversity in recommended news.
 - To evaluate the diversity over a range of time in regional news datasets.
-
----
 
 ## Repository Structure
 
@@ -23,8 +19,6 @@ TFM
 ├── 2_metrics_RADio # Diversity metrics
 
 ├── 3_3Cat          # Regional news analysis using LLMs
-
----
 
 ## 1️⃣ Training and Export (`1_train_export`)
 
@@ -40,11 +34,11 @@ Experiments are conducted on the **MIND Small** dataset.
 
 Due to strict compatibility constraints of TensorFlow and the `recommenders` library, the following versions are required:
 
-- **Python 3.9**
-- **TensorFlow 2.10.0**
-- **CUDA 11.2**
-- **cuDNN 8.2.0**
-- **NumPy 1.26.4**
+- Python 3.9
+- TensorFlow 2.10.0
+- CUDA 11.2**
+- cuDNN 8.2.0
+- NumPy 1.26.4
 
 Binary-only installation is required for `blis`, `thinc`, and `spacy`.
 
@@ -85,11 +79,13 @@ en_core_web_sm-3.0.0/en_core_web_sm-3.0.0.tar.gz#egg=en_core_web_sm
 
 ## 3️⃣ Regional Analysis (3_3Cat)
 
-Analysis of a regional Catalan news dataset using local large language models via Ollama and LangChain to process the data and subsequently compute entropy and activation metrics in order to obtain average sentiment and polarization, with the goal of calculating a diversity metric for the analyzed dataset.
+Analysis of a regional Catalan news dataset using local large language models via Ollama and LangChain to process the data and subsequently compute entropy and activation metrics in order to obtain average sentiment and polarization, with the goal of calculating a diversity metric for a subset of this dataset over a specific time interval.
 
 ### Requirements
-pip install langchain langchain_community sparqlwrapper
 
+```bash
+pip install langchain langchain_community sparqlwrapper
+```
 
 Additionally:
 
