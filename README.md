@@ -65,9 +65,9 @@ conda install -c conda-forge -c nvidia cudatoolkit=11.2 cudnn=8.2.0 -y
 
 Required external files:
 
-- glove.6B.300d.txt
+- [glove.6B.300d.txt](https://www.kaggle.com/datasets/thanakomsn/glove6b300dtxt)
 
-- MIND Small dataset
+- [MIND Small dataset](https://msnews.github.io/)
 
 ## 2️⃣ Diversity Metrics (2_metrics_RADio)
 
@@ -96,7 +96,7 @@ Additionally:
 
 - Download the Qwen3:8b model.
 
-- Download the [3Cat news dataset]([https://ejemplo.com](https://drive.google.com/file/d/1o3pmii7_P0vx-PBHQ0pUHnC7samyXKtG/view?usp=sharing))
+- Download the [3Cat news dataset](https://drive.google.com/file/d/1o3pmii7_P0vx-PBHQ0pUHnC7samyXKtG/view?usp=sharing)
 
 ## License
 
