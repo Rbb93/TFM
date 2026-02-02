@@ -93,7 +93,7 @@ Additionally:
 
 - Download the Qwen3:8b model.
 
-- Download the [3Cat news dataset](https://drive.google.com/file/d/1o3pmii7_P0vx-PBHQ0pUHnC7samyXKtG/view?usp=sharing)
+- Download the 3Cat news dataset.
 
 ## License
 
